@@ -363,6 +363,7 @@ a {
 .tweet__text {
   font-size: 1rem;
   line-height: 1.25;
+  word-break: break-word;
 }
 
 .login-info {
