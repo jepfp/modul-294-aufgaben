@@ -24,7 +24,7 @@ describe('G1', () => {
         cy.get('.composer__textarea').type('Hello World')
         cy.get('.composer .btn').click()
 
-        cy.get('@post').then(interception => {
+        cy.wait('@post').then(interception => {
             expect(interception.request.body).to.have.property('text', 'Hello World')
         })
     })
