@@ -159,7 +159,7 @@ body {
 
   background: linear-gradient(to bottom, #fb7185, #e11d48);
   background-clip: text;
-  text-fill-color: transparent;
+  color: transparent;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
